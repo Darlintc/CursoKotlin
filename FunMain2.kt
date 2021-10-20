@@ -1,5 +1,5 @@
 fun printlnBorder(){
-
+  
     println("=====================")
 }
 fun printlnBorder_repet(){
@@ -8,9 +8,18 @@ fun printlnBorder_repet(){
     }
     println()
 }
+// funcion con variable asiganada
+fun printlnBorder_variable(border: String){ 
+     repeat(23){
+         print(border)
+     }
+    println()
+}
 
 fun main(){
+   
     // colocamos una variable
+    val border ="%"
     val age = 5 * 365
     val name = "Ailan"
     println("Happy Birthday, Ailan!")
@@ -18,12 +27,14 @@ fun main(){
     
     // Let 's print cake!
     printlnBorder_repet()
+    printlnBorder_variable(border)
     println("   ,,,,,   ")
     println("   |||||   ")
     println(" =========")
     println("@@@@@@@@@@@")
     println("{~@~@~@~@~}")
     println("@@@@@@@@@@@")
+    printlnBorder_variable(border)
    // This prints an empty line.
     println("")
     printlnBorder()
