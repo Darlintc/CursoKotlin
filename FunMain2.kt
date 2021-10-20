@@ -1,3 +1,9 @@
+fun printlnBorder(){
+
+    println("=====================")
+}
+
+
 fun main(){
     // colocamos una variable
     val age = 5 * 365
@@ -14,6 +20,7 @@ fun main(){
     println("@@@@@@@@@@@")
    // This prints an empty line.
     println("")
+    printlnBorder()
  // colocamos el valor de la variable
  println("You are already ${age}, days old ${name} !")
  println("${age} is the very best age to celebrate")
